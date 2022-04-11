@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 npx create-next-app note-app --typescript
 ~~~
 ~~~
-yarn add @heroicons/react @supabase/supabase-js react-query zustand
+yarn add @heroicons/react @supabase/supabase-js react-query@v4.0.0-beta.2 zustand
 ~~~
 ~~~
 yarn add -D tailwindcss postcss autoprefixer
