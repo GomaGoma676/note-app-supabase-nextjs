@@ -15,6 +15,8 @@ export default async function handler(
   let revalidated = false
   try {
     await res.unstable_revalidate(`/note/${id}`)
+    //Nextjs12.2->
+    //await res.revalidate(`/note/${id}`)
     revalidated = true
   } catch (err) {
     console.log(err)
